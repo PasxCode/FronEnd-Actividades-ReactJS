@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  color: #ddd;
+  background-color: #cdcdcd;
+  font-family: Lato, sans-serif;
+  margin-top: 5px;
+}
+h1{
+  color: #033a1c;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.app-Actividades{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-logo{
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 500px;
+  border-radius: 10px;
+}
+
+.Actividades-lista-principal{
+  width: 600px;
+  min-height: 450px;
+  color: #1b1b32;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 25px;
+}

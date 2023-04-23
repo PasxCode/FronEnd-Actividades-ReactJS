@@ -1,0 +1,66 @@
+.Actividad-contenedor{
+  width: 500px;
+  min-height: 65px;
+  color: white;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.Actividad-completada{
+  width: 500px;
+  min-height: 65px;
+  color: white;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: rgb(52, 51, 53);
+  text-decoration: line-through;
+  color: gray;
+}
+
+.Actividad-contenedor:nth-child(3n+1) {
+  background-color: #012c0a;
+}
+
+.Actividad-contenedor:nth-child(3n+2) {
+  background-color: #023801;
+}
+
+.Actividad-contenedor:nth-child(3n+3) {
+  background-color: #013e0c;
+}
+
+.Actividad-titulo{
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere; /* si el texto es mue largo va a ser cortado y continuará debajo. */
+}
+
+.Actividad-icono{
+ width: 25px;
+ height: 25px;
+ border: 5px;
+ margin-right: 3px;
+ margin-left: 3px;
+ color: white;
+}
+.Actividad-icono:hover{
+ color: blue;
+ width: 40px;
+ height: 40px;
+
+}

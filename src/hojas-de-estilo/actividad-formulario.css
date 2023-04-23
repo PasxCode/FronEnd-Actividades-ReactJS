@@ -1,0 +1,28 @@
+.Actividad-formulario{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Actividad-input{
+  width: 330px;
+  font-size: 18px;
+  background-color: white;
+  padding: 14px 15px 14px 15px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #033a1c;
+  outline: none;
+}
+
+.Actividad-boton{
+  padding: 16px 10px 16px 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #033a1c;
+  color: #fff;
+  text-transform: capitalize;
+}
